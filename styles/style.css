@@ -1,0 +1,24 @@
+header, .contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1DB945;
+  background: lightblue;
+  height: 100vh;
+}
+header h1, .contact h1 {
+  color: #8d840a;
+}
+header h1:hover, .contact h1:hover {
+  background-color: #8d2f0a;
+}
+header h1::after, .contact h1::after {
+  content: "jokooooo";
+}
+
+.contact {
+  background-color: lightcoral;
+  width: 80%;
+}/*# sourceMappingURL=style.css.map */

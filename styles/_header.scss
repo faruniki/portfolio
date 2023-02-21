@@ -1,0 +1,24 @@
+@mixin flexCenter($direction, $background) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    background-color: $background;
+}
+
+header {
+    @include flexCenter(column, #1DB945);
+
+    background: lightblue ;
+    height: 100vh;
+    h1 {
+        color: $primaryTextColor;
+        &:hover {
+            background-color: $secondaryTextColor;
+        }
+        &::after {
+            content: "jokooooo";
+        }
+    }
+}

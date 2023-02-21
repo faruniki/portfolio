@@ -1,0 +1,15 @@
+@import "./variables";
+@import "./header";
+
+.contact {
+    // @include flexCenter(row, #222);
+    // button {
+    //     background-color: $white;
+    //     &:hover {
+    //         background-color: $primaryBtn;
+    //     }      
+    // }
+    @extend header;
+    background-color: lightcoral;
+    width: 100% - 20%;
+}
